@@ -1,19 +1,28 @@
-import logo from './logo.svg';
-import lakshlogo from './logo.jpeg';
+import React from 'react';
+import { BrowserRouter as Router ,  Switch, Route, Redirect } from 'react-router-dom';
+import { connect } from 'react-redux';
+import { createStructuredSelector } from 'reselect';
+
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={lakshlogo} className="App-logo" alt="logo" />
-        <p>
-         Welcome to Laksh Organics
-        </p>
-                
-      </header>
-    </div>
-  );
+import Header from './components/header/header.component';
+import HomePage from './pages/homepage/homepage.component';
+import SellPage from './pages/sell/sell.component'
+
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+
+        <Header />
+        <Switch>
+          <Route exact path='/' component={HomePage} />
+          <Route exact path='/sell' component={SellPage} />
+        </Switch>
+
+      </div>
+    );
+  }
 }
 
-export default App;
+export default connect()(App);
