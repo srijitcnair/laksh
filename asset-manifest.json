@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/laksh/static/css/main.9f48fece.css",
-    "main.js": "/laksh/static/js/main.fce6d7e1.js",
+    "main.js": "/laksh/static/js/main.661325a2.js",
     "index.html": "/laksh/index.html",
     "main.9f48fece.css.map": "/laksh/static/css/main.9f48fece.css.map",
-    "main.fce6d7e1.js.map": "/laksh/static/js/main.fce6d7e1.js.map"
+    "main.661325a2.js.map": "/laksh/static/js/main.661325a2.js.map"
   },
   "entrypoints": [
     "static/css/main.9f48fece.css",
-    "static/js/main.fce6d7e1.js"
+    "static/js/main.661325a2.js"
   ]
 }
