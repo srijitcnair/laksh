@@ -2,7 +2,7 @@
   "name": "laksh",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://srijitcnair.github.io/laksh",
+  "homepage": "https://srijitcnair.github.io/laksh/",
   "dependencies": {
     "gh-pages": "^3.2.3",
     "node-sass": "^7.0.1",
