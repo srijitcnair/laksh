@@ -9,6 +9,7 @@ import Header from './components/header/header.component';
 import HomePage from './pages/homepage/homepage.component';
 import ShopPage from './pages/shop/shop.component';
 import SellPage from './pages/sell/sell.component'
+import EditStoreItemPage from './pages/edit-store-item/edit-store-item.component';
 
 class App extends React.Component {
   render() {
@@ -20,6 +21,7 @@ class App extends React.Component {
           <Route exact path='/' component={ShopPage} />
           <Route exact path='/shop' component={ShopPage} />
           <Route exact path='/sell' component={SellPage} />
+          <Route exact path='/sell/edit-store-item/:itemId' component={EditStoreItemPage} />
         </Switch>
 
       </div>

@@ -1,0 +1,36 @@
+.edit-item-page{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: vertical;
+    margin-top: 150px;
+
+    .title {
+        display:block
+    }
+    .search{
+        width:100%;
+        display: block;
+        position: relative;
+        .image {
+            width: 100px;
+            height: 100px;
+            background-size: cover;
+            background-position: center;
+            margin-bottom: 5px;
+          }
+
+    }
+
+    .more-buttons {
+        width:100%;
+        position: relative;
+        top:500px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+      }
+
+
+}
+

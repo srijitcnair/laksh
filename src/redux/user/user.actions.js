@@ -10,7 +10,7 @@ export const addItemToStore = item => ({
   payload: item
 });
 
-export const removeItemFromStore = item => ({
+export const removeItemFromStore = itemId => ({
   type: UserActionTypes.REMOVE_ITEM_FROM_STORE,
-  payload: item
+  payload: itemId
 });
