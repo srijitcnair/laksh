@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/laksh/static/css/main.9f48fece.css",
-    "main.js": "/laksh/static/js/main.661325a2.js",
+    "main.css": "/laksh/static/css/main.32a0e08f.css",
+    "main.js": "/laksh/static/js/main.36b31d8e.js",
     "index.html": "/laksh/index.html",
-    "main.9f48fece.css.map": "/laksh/static/css/main.9f48fece.css.map",
-    "main.661325a2.js.map": "/laksh/static/js/main.661325a2.js.map"
+    "main.32a0e08f.css.map": "/laksh/static/css/main.32a0e08f.css.map",
+    "main.36b31d8e.js.map": "/laksh/static/js/main.36b31d8e.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f48fece.css",
-    "static/js/main.661325a2.js"
+    "static/css/main.32a0e08f.css",
+    "static/js/main.36b31d8e.js"
   ]
 }
